@@ -1,0 +1,40 @@
+/* File:  /~hpatel2/style.css
+  Harsh Y Patel, UMass Lowell Computer Science, harsh_patel4@student.uml.edu
+  Copyright (c) 2020 by Harsh Y Patel.  All rights reserved.  
+  File created:Oct 29th 2020
+    updated by Harsh Y Patel Oct 29th 2020, 8:00 PM
+ */
+table, th, td {
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+table{
+	margin-left:auto; 
+    margin-right:auto;
+}
+
+td, th { 
+    padding: 5px;
+}
+
+#valueinput{
+	text-align: left;
+}
+
+th{
+	background-color: black; 
+	color:white;
+}
+
+body {
+	background-color:#cfe1ff;
+ }
+
+p{
+	text-align: left;
+}
+
+#message {
+	color: red;
+}

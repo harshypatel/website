@@ -1,0 +1,45 @@
+<!-- Name: Harsh Y Patel -->
+<!-- File:  /~hpatel2/index.html -->
+<!--  Harsh Y Patel, UMass Lowell Computer Science, harsh_patel4@student.uml.edu  -->
+<!--  Copyright (c) 2020 by Harsh Patel.  All rights reserved.   -->
+<!--  File created:Oct 29th 2020                          -->
+<!--    updated by Harsh Y Patel Oct 29th 2020, 8:00 PM -->
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Homework 5 </title>
+	<link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+	
+	<h1> Multiplication Table </h1>
+
+	<div id="wrapper">
+		<form id="valueinput" onsubmit="return Table_Create()">
+		  <fieldset>
+			Minimum Column (X) Value: <input type="number" name="column_start" id="column_start" min="-50" max="50"> <br><br>
+            Maximum Column (X) Value:
+            <input type="number" name="column_end" id="column_end" min="-50" max="50">
+            <br> <br>
+            Minimum Row (Y) Value: <input type="number" name="row_start" id="row_start" min="-50" max="50"> <br><br>
+            Maximum Row (Y) Value:
+            <input type="number" name="row_end" id="row_end" min="-50" max="50">
+            <br><br>
+			<p id="message"></p>
+		  </fieldset>
+        </form>
+		
+		
+        <p>Click "Submit" to generate table.</p>
+        <div id = "clicking"><button onclick="Table_Create()"> Submit My Values </button></div>
+
+        <div id="table"></div>
+	</div>
+	
+	<div> <p> <a href="https://harshypatel.github.io/website/"> Go Back </a></p> </div>
+	
+</body>
+</html>
