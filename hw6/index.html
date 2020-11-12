@@ -1,0 +1,51 @@
+<!-- Name: Harsh Y Patel -->
+<!-- File:  harshypatel.github.io/website/hw6/index.html -->
+<!--  Harsh Y Patel, UMass Lowell Computer Science, harsh_patel4@student.uml.edu  -->
+<!--  Copyright (c) 2020 by Harsh Patel.  All rights reserved.   -->
+<!--  File created:Nov 10th, 2020                          -->
+<!--    updated by Harsh Y Patel Nov 11th, 2020, 8:00 PM -->
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Homework 6 </title>
+	
+	<!-- style the web page -->
+	<link rel="stylesheet" href="css/style.css">
+	
+	<!-- Script for Jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+	<script src="js/script.js"></script>
+</head>
+
+<body>
+	
+	<h1> Multiplication Table </h1>
+	
+	<h2> Instructions: </h2>
+	<p> 1. Enter a positive integer between 1 - 100 </p>
+	<p> 2. Press "Submit My values" to generate a table. </p>
+    
+	<div id="wrapper">
+		<form id="table_form">
+		    <fieldset>
+			<br>
+			Minimum Column (Y) Value: <input type="text" name="column_start" id="column_start"> <br><br>
+            Maximum Column (Y) Value: <input type="text" name="column_end" id="column_end">
+            <br> <br>
+            Minimum Row (X) Value: <input type="text" name="row_start" id="row_start"> <br><br>
+            Maximum Row (X) Value: <input type="text" name="row_end" id="row_end">
+            <br><br>
+			</fieldset>
+        </form>
+		<br>
+		<div id = "clicking"><button onclick="Table_Create()"> Submit My Values </button></div>
+		
+		<div id="table"></div>
+	</div>
+	
+	<div> <p> <a href="https://harshypatel.github.io/website/"> Go Back </a></p> </div>
+	
+</body>
+</html>
