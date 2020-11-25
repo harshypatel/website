@@ -1,0 +1,74 @@
+<!-- Name: Harsh Y Patel -->
+<!-- File: harshypatel.github.io/website/hw7/index.html -->
+<!-- Harsh Y Patel, UMass Lowell Computer Science, harsh_patel4@student.uml.edu  -->
+<!-- Copyright (c) 2020 by Harsh Patel.  All rights reserved.   -->
+<!-- File created:Nov 22nd, 2020                          -->
+<!-- updated by Harsh Y Patel Nov 22nd, 2020, 8:00 PM -->
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Homework 7 </title>
+	
+	<!-- style the web page -->
+	<link rel="stylesheet" href="css/style.css">
+	<link href="css/jquery-ui.css" rel="stylesheet">
+	<link href="css/jquery-ui.min.css" rel="stylesheet">
+	
+	<!-- Script for Jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+	
+	<Script src="js/initial.js"></script>
+	<script src="js/table_validation.js"></script>
+	<Script src="js/table_create.js"></script>
+	<Script src="js/tab_create.js"></Script>
+	<script src="js/jquery-ui.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+</head>
+
+<body>
+	
+	<h1> Multiplication Table </h1>
+	
+	<h2> Instructions: </h2>
+	<p> 1. Enter an integer between -20 to 20. </p>
+	<p> 2. Press "Regenerate Table" to generate a table. </p>
+	<p> 3. A user can create multiple tabs up to 12. </p>
+	<p> 4. Click on top right of tab number to close the current tab. </p>
+	<p> 5. Click "Delete All" to close all the tabs. </p>
+	
+	<div id="wrapper">
+		<form id="table_form">
+		    <fieldset>
+			<br>
+			Minimum Column Value: <input type="text" name="column_start" id="column_start" value="0" placeholder="Start"> 
+			<div id="xBegin" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"></div>
+			<br><br>
+            Maximum Column Value: <input type="text" name="column_end" id="column_end" value="0" placeholder="End">
+            <div id="xEnd" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"></div>
+			<br><br>
+            Minimum Row Value: <input type="text" name="row_start" id="row_start" value="0" placeholder="Start">
+			<div id="yBegin" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"></div>
+			<br><br>
+            Maximum Row Value: <input type="text" name="row_end" id="row_end" value="0" placeholder="End">
+			<div id="yEnd" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"></div>
+            <br><br>
+			<input class="button" type="button" value="Regenerate Table">
+			</fieldset>
+        </form>
+		
+		<div id="table"></div> <!-- Draw table -->
+	</div>
+	
+	<br>
+	<div id="tabs"><ul></ul></div> <!-- Draw tabs -->
+	
+	<p id="message"></p>
+	
+    <div id="remove_tabs"></div> <!-- remove tabs -->
+
+	<div> <p> <a href="https://harshypatel.github.io/website/"> Go Back </a></p> </div>
+	
+</body>
+</html>
