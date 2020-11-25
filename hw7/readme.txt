@@ -5,6 +5,8 @@
  File created:Nov 22nd, 2020
  updated by Harsh Y Patel Nov 22nd, 2020, 8:00 PM
 
+link: https://harshypatel.github.io/website/hw7/index.html
+
 -> The program initially starts with pressing button. 
 -> First the program validates if the user input is correct and then validates slider.
 -> If the user input and slider input matches are correct then it creates a tab
