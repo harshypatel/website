@@ -1,0 +1,300 @@
+/*
+    Name: Harsh Y Patel 
+	File: harshypatel.github.io/website/hw8/css/style.css 
+	Harsh Y Patel, UMass Lowell Computer Science, harsh_patel4@student.uml.edu  
+	Copyright (c) 2020 by Harsh Patel.  All rights reserved.   
+	File created:Dec 16th, 2020                          
+	updated by Harsh Y Patel Dec 16th, 2020, 8:00 PM
+*/
+
+body {
+    font-style: normal;
+    font-size: 12px;
+    font-family: "Times New Roman", Courier, monospace;
+    background-color:#cfe1ff;
+    min-width: 680px;
+    max-width: 950px;
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+	margin-top: 0px;
+    margin-right: 190px;
+    margin-bottom: 0px;
+    margin-left: 450px;
+    min-height: 100%;
+}
+
+h1 {
+    font-family: "Times New Roman", Courier, monospace;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+}
+
+td { /* tiles */
+    background-color: rgb(217, 182, 137);
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 46px;
+    height: 46px;
+}
+
+td img {
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    display:block;
+    width: 100%;
+    height: 46px;
+}
+
+#main {
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    display: table;
+    position: relative;
+    height: 100%;
+}
+
+#game_info {
+    height: 208px;
+}
+
+#rightSection {
+    float: right;
+    width: 35%;
+}
+
+#letter_rack {
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    position: relative;
+    height: 58px;
+}
+
+#letter_rack img { /* letter tile image */
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+}
+
+#rack_of_word td { /* rack of word */
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    width: 46px;
+    height: 46px;
+}
+
+#rack_of_word img { 
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    display: block;
+    width: 100%;
+    height: 46px;
+}
+
+#reset_and_new_letters {
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    text-align: center;
+    height: 54px;
+}
+
+#reset_game {
+    background-color: purple;
+    color: black;
+    margin-top: 2px;
+    margin-right: 0px;
+    margin-bottom:2px;
+    margin-left: 0px;
+    font-size: 12px;
+    width: 135px;
+    height: 50px;
+}
+
+#reset_game:hover { 
+    color: Yellow;
+}
+
+#new_letters {
+    background-color: purple;
+    color: black;
+    margin-top: 2px;
+    margin-right: 8px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    font-size: 12px;
+    width: 110px;
+    height: 50px;
+}
+
+#new_letters:hover {
+    color: skyblue;
+}
+
+#return_and_clear_board {
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    text-align: center;
+    height: 55px;
+}
+
+#clear_board { 
+    background-color: purple;
+    color: black;
+    margin-top: 2px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    font-size: 12px;
+    width: 130px;
+    height: 50px;
+}
+
+#clear_board:hover { 
+    color: yellow;
+}
+
+#return_current_letters { 
+    background-color: purple;
+    color: black;
+    margin-top: 2px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    font-size: 12px;
+    width: 145px;
+    height: 50px;
+}
+
+#return_current_letters:hover {
+    color: skyblue;
+}
+
+#score_submit {
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    text-align: center;
+}
+
+#score { 
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#submit { 
+    background-color: white;
+    color: green;
+    font-size: 12px;
+    width: 80px;
+    height: 35px;
+}
+
+#submit:hover {
+    color: blue;
+}
+
+#valid {
+    border-color: green;
+}
+
+#letterImageIsValid {
+    border-color: green;
+}
+
+.scrabbleBoardSection {
+    display: table;
+}
+
+.error_message { /* error message */
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    font-size: 18px;
+    color: #FF0000;
+    text-align: center;
+    height: 25px;
+}
+
+.leftword {
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.RowWord {
+    text-align: center;
+    width: 36px;
+    height: 36px;
+}
+
+.left_side { /* score */
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+    margin-left: 65px;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+}
+
+.right_side { /* submit */
+    margin-top: 1px;
+    margin-right: 57px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    float: right;
+}
+
+.Star {
+    background-size: 100% 100%;
+    background-image: url("../images/scrabble_Tiles/Star.png");
+    background-repeat: no-repeat;
+}
+
+.twoTimesTheWord {
+    background-size: 100% 100%;
+    background-image: url("../images/Scrabble_Tiles/Two_Times_Word.png");
+    background-repeat: no-repeat;
+}
+
+.threeTimesTheWord {
+    background-size: 100% 100%;
+    background-image: url("../images/Scrabble_Tiles/Three_Times_Word.png");
+    background-repeat: no-repeat;
+}
+
+.twoTimesTheLetter {
+    background-image: url("../images/Scrabble_Tiles/Two_Times_Letter.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.threeTimesTheLetter {
+    background-size: 100% 100%;
+    background-image: url("../images/Scrabble_Tiles/Three_Times_Letter.png");
+    background-repeat: no-repeat;
+}

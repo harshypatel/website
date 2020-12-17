@@ -1,0 +1,66 @@
+<!-- Name: Harsh Y Patel 
+	 File: harshypatel.github.io/website/hw8/index.html 
+	 Harsh Y Patel, UMass Lowell Computer Science, harsh_patel4@student.uml.edu  
+	 Copyright (c) 2020 by Harsh Patel.  All rights reserved.   
+	 File created:Dec 16th, 2020                          
+	 updated by Harsh Y Patel Dec 16th, 2020, 8:00 PM 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8-8">
+    <title> Homework 8 </title>
+	
+	<!-- style the web page -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<h1> Implementing a Bit of Scrabble with Drag-and-Drop </h1>
+	<div id="main">
+		<div id="rightSection">
+			<br> </br>
+			<div id="game_info">
+				<!-- rack -->
+				<div id="letter_rack"></div>
+
+				<br> <!-- First two buttons -->
+				<div id="reset_and_new_letters">
+					<input id="reset_game" value="Reset Game" type="submit">
+					<input id="new_letters" value="New Letters" type="submit">
+				</div>
+				
+				<br> <!-- return the current letters and clear the board buttons  -->
+				<div id="return_and_clear_board">
+					<input id="return_current_letters" value="Return current letters" type="submit">
+					<input id="clear_board" value="Clear Scrabble Board" type="submit">
+				</div>
+
+				<br> <!-- Submit button -->
+				<div id="score_submit">
+					<div class="left_side">
+						Score: <span id="score"></span>
+					</div>
+					<div class="right_side">
+						<input id="submit" value="Submit" type="submit">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- scrabble board section -->
+		<div class="scrabbleBoardSection">
+			<div class="error_message"></div>
+			<div class="scrabble"></div>
+			<div id="scrabble_board_game"></div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="js/scrabble_Pieces.js"></script>
+	<script src="js/create_board.js"></script>
+	<script src="js/hw8_start.js"></script>
+</body>
+</html>
