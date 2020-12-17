@@ -31,6 +31,7 @@ h1 {
     margin-right: 0px;
     margin-bottom: 15px;
     margin-left: 0px;
+    border-style: solid;
 }
 
 td { /* tiles */
