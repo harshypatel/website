@@ -31,7 +31,6 @@ h1 {
     margin-right: 0px;
     margin-bottom: 15px;
     margin-left: 0px;
-    border-style: solid;
 }
 
 td { /* tiles */
@@ -79,6 +78,7 @@ td img {
     margin-left: auto;
     position: relative;
     height: 58px;
+    border-style: solid;
 }
 
 #letter_rack img { /* letter tile image */
