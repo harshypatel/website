@@ -59,7 +59,7 @@ function create_letters() {
             random_index = Math.floor(Math.random() * scrabble_letters.length);
         }
 
-        var letter_link = "images/Scrabble_Tiles/Scrabble_Tile_" + scrabble_letters[random_index] + ".jpg"; // access to letter location
+        var letter_link = "../images/Scrabble_Tiles/Scrabble_Tile_" + scrabble_letters[random_index] + ".jpg"; // access to letter location
         letters += "<td><img id='tile_drag_" + x + "' class='board_piece_" + scrabble_letters[random_index] + "' src='" + letter_link + "' /></img></td>";
 
         ScrabbleTiles[scrabble_letters[random_index]].number_remaining = ScrabbleTiles[scrabble_letters[random_index]].number_remaining - 1; // updates the remaining number
@@ -325,7 +325,7 @@ function receiveNewLetter() {
             ScrabbleTiles[scrabble_letters[random_index]].number_remaining = ScrabbleTiles[scrabble_letters[random_index]].number_remaining - 1; // changes the left value in ScrabbleTiles
 
             var letter_link;
-            letter_link = "images/Scrabble_Tiles/Scrabble_Tile_" + scrabble_letters[random_index] + ".jpg"; // access to letter location
+            letter_link = "../images/Scrabble_Tiles/Scrabble_Tile_" + scrabble_letters[random_index] + ".jpg"; // access to letter location
 
             temp[x] = ({"Letter": scrabble_letters[random_index], "id" : "tile_drag_" + x, "position": x, "value" : ScrabbleTiles[scrabble_letters[random_index]].value, "Link" : "<img id='tile_drag_" + x + "' class='board_piece_" + scrabble_letters[random_index] + "' src='" + letter_link + "' /></img>"});
         }
