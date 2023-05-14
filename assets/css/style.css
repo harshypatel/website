@@ -916,8 +916,8 @@ Home Section style
     background: url(../images/1000004694.JPEG) no-repeat center center;
     background-size: cover;
     position: relative;
-    background-position: center;
-    height: 500px;
+    background-position: right;
+    height: 1000px;
 }
 .main_home{
     overflow: hidden;
