@@ -914,9 +914,10 @@ Home Section style
 
 .home{
     background: url(../images/1000004694.JPEG) no-repeat center center;
-    background-size: cover;
+    background-size: contain;
     position: relative;
-    background-position: right;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 1000px;
 }
 .main_home{
